@@ -9,7 +9,7 @@ class NotifyBubble:
         # 注册一个窗口类  
         wc = win32gui.WNDCLASS()
         hinst = wc.hInstance = win32gui.GetModuleHandle(None)
-        timestamp = time.time()  # 生成时间缀给类名
+        timestamp = time.time()  # 生成时间缀给类名,避免窗口类名重复
         wc.lpszClassName = "PythonNotifyBubble" + str(timestamp)
         wc.lpfnWndProc = {win32con.WM_DESTROY: self.OnDestroy, }
         classAtom = win32gui.RegisterClass(wc)
