@@ -28,7 +28,7 @@ class UpImage:
 
 
 if __name__ == '__main__':
-    space, user, password = 'mocobk', 'mocobk', 'mo123456'
+    space, user, password = 'xxx', 'xxx', 'xxx'
     up = UpImage(space, user, password)
     r = up.upimage('shouxie.jpg', '/image', img_format='jpg')
     print(r)

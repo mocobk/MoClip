@@ -62,8 +62,8 @@ class AiPlat(object):
 
 
 if __name__ == '__main__':
-    app_key = 'cqRcLaJYObRjqRMm'
-    app_id = '1106991666'
+    app_key = 'xxx'
+    app_id = 'xxxx'
     with open('generalocr.jpg', 'rb') as bin_data:
         image_data = bin_data.read()
     ai_plat = AiPlat(app_id, app_key)
