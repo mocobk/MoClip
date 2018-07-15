@@ -1,0 +1,4 @@
+upyun==2.5.2
+requests==2.18.4
+keyboard==0.13.2
+win32gui==221.6

@@ -2,6 +2,7 @@
 import win32gui
 import win32con
 import time
+import pipreqs.pipreqs
 
 
 class NotifyBubble:
